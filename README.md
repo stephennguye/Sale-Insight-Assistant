@@ -24,7 +24,7 @@ An AI-powered assistant for analyzing sales data, predicting customer churn, and
     - `/predict` → churn prediction  
     - `/ask` → RAG-powered Q&A  
 - **UI**  
-  - Streamlit-based frontend (optional).  
+  - Streamlit-based frontend  
 
 ---
 
@@ -194,3 +194,4 @@ make lint
 * Improve churn model with hyperparameter tuning.
 * Swap local generator (`distilgpt2`) with OpenAI.
 * Containerize with Docker for deployment.
+
