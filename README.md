@@ -36,9 +36,9 @@ Sale Insight Assistant/
 │   ├── app.py              # FastAPI entrypoint
 │   ├── ingest.py           # Ingest raw data into SQLite
 │   ├── analytics.py        # Compute KPIs
-│   ├── train\_model.py      # Train churn model
-│   ├── rag\_index.py        # Build FAISS index
-│   ├── rag\_query.py        # Retrieval + generation pipeline
+│   ├── train_model.py      # Train churn model
+│   ├── rag_index.py        # Build FAISS index
+│   ├── rag_query.py        # Retrieval + generation pipeline
 │   └── utils/              # Logging & exceptions
 ├── tests/                  # Pytest-based tests
 ├── data/                   # Raw data + generated DB/indexes (ignored in git)
@@ -58,7 +58,7 @@ Sale Insight Assistant/
 
 Clone the repo:
 ```bash
-git clone https://github.com/<your-username>/sale-insight-assistant.git
+git clone https://github.com/stephnnguye/sale-insight-assistant.git
 cd sale-insight-assistant
 ````
 
@@ -194,4 +194,5 @@ make lint
 * Improve churn model with hyperparameter tuning.
 * Swap local generator (`distilgpt2`) with OpenAI.
 * Containerize with Docker for deployment.
+
 
