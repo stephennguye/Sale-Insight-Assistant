@@ -1,0 +1,15 @@
+pandas
+sqlalchemy
+scikit-learn
+xgboost
+joblib
+sentence-transformers
+faiss-cpu
+transformers
+langchain
+fastapi
+uvicorn
+streamlit
+pytest
+flake8
+requests
